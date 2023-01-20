@@ -1,0 +1,194 @@
+.body {
+  background-color: rgb(230, 233, 235);
+}
+
+.items {
+  width: 70%;
+  margin: 0 auto;
+  margin-top: 50px;
+}
+
+.slick-slide>div {
+  margin: 0 10px;
+}
+
+.slick-list {
+  margin: 0 -10px;
+}
+
+button.slick-next {
+  background-color: rgb(255, 255, 255);
+  border-radius: 2px;
+  height: 30px;
+  width: 30px;
+  outline: none;
+  right: -11px;
+
+}
+
+button.slick-next::before {
+  border: 5px solid hsl(348deg 100% 56%);
+  background-color: hsl(348deg 100% 56%);
+  border-radius: 2px;
+  color: white;
+  height: 40px;
+  width: 40px;
+  outline: none;
+
+}
+
+
+button.slick-prev {
+  background-color: rgb(255, 255, 255);
+  border-radius: 2px;
+  height: 30px;
+  width: 30px;
+  outline: none;
+  right: -11px;
+}
+
+button.slick-prev::before {
+  border: 5px solid hsl(348deg 100% 56%);
+  background-color: hsl(348deg 100% 56%);
+  border-radius: 2px;
+  color: rgb(255, 255, 255);
+  height: 40px;
+  width: 40px;
+  outline: none;
+
+}
+
+.card {
+  border: none;
+  border-radius: 2px;
+  overflow: hidden;
+  height: 500px;
+  color: #fff;
+  cursor: pointer;
+  position: relative;
+  bottom: 50px;
+
+}
+
+.card-top h1 {
+  font-size: 0.9rem;
+  margin: auto;
+  position: relative;
+  color: white;
+  top: 305px;
+  text-align: left;
+  left: 20px;
+  font-family: sans-serif;
+  font-weight: 500;
+  font-size: large;
+}
+
+.card-top h2 {
+  margin: auto;
+  position: relative;
+  color: white;
+  top: 50px;
+  left: 95px;
+  font-weight: 600;
+  font-size:12px;
+  padding-top: 5px;
+  height: 21px;
+  width: 87px;
+  border-radius: 20px;
+  background-color:hsl(348deg 100% 56%);
+
+}
+
+.card-top>img {
+  border: none;
+  border-radius: 2px;
+  height: 100%;
+  width: 138%;
+  left: -65px;
+  object-fit: fill;
+  cursor: pointer;
+  position: absolute;
+}
+
+.column-items{
+  display: flex;
+  flex-direction:column;
+  position: relative;
+  /* bottom: -5px; */
+
+}
+
+.items-in-row {
+  display: flex;
+  flex-direction:row;
+  position: relative;
+  padding-top:5px;
+}
+
+
+.card .items-in-row h4 {
+  color: hsl(348deg 100% 56%);
+  position: relative;
+  top: 290px;
+  font-family: sans-serif;
+  font-weight: 500;
+  left: 20px;
+  font-size:smaller;
+
+}
+
+.card .items-in-row p {
+  color: white;
+  position: relative;
+  top:295px;
+  font-family: sans-serif;
+  font-weight: 500;
+  left: 25px;
+  font-size:smaller;
+
+
+}
+
+  .icon{
+    position: relative;
+    bottom: -291px;
+    color: rgb(255, 255, 255);
+    margin-top:-10px;
+    padding-left: 20px;
+    font-size:smaller;
+    font-family: sans-serif;
+    text-align:left
+
+  }
+  
+
+   .icon .icons-details{
+    margin-top:1px;
+    margin-right:65px;
+    padding-top: 1px;
+  }
+  
+   h3{
+    font-size: 13px;
+    margin-top:-18px;
+    font-family:sans-serif;
+    font-weight:500;
+    padding-left:24px;
+  } 
+
+
+ .icon .year{
+  margin-top: 9px;
+  text-align: left;
+}
+
+.icon .meter{
+  margin-top: 8px;
+
+} 
+
+.icon .transmission{
+  margin-top: 4px;
+
+}
+ 

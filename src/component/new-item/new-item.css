@@ -1,0 +1,109 @@
+.container{
+display:flex;    
+justify-content: center;
+align-items: center;
+margin: 120px 320px 120px 120px;
+}
+
+
+h2{
+    position:absolute;
+    font-size: 35px;
+    margin-top: -1095px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.container .formImg{
+    position: absolute;
+    margin-top:-1px;
+    height: 1020px;
+    width: 400px;
+    margin-left: 590px; 
+    border-radius: 4px;
+}
+
+.container form{
+display: flex;
+flex-direction: column;
+background-color:rgb(0, 0, 0);
+height: 120vh;
+width: 1765px;
+border-radius: 4px;
+color: rgb(255, 254, 254);
+padding: 20px;
+
+}
+
+.container label{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: 600;
+    text-align: left;
+}
+
+.container input{
+    border-radius: 3px;
+    border: none;
+    height: 30px;
+    width: 345px;
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    padding-left:8px;
+
+}
+
+.column-item{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding:10px;
+    gap: 15px;
+    margin-left: 20px;
+}
+
+
+.container select{
+
+    border-radius: 3px;
+    border: none;
+    height: 30px;
+    width: 350px;
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    padding-left:8px;
+
+}
+
+.container option{
+    font-size: larger;
+}
+
+.container button{
+    border: none;
+    height: 40px;
+    width: 195px;
+    margin-left:110px;
+    border-radius:10px;
+    align-items: center;
+    font-size: medium;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.submit{
+background-color:hsl(348deg 100% 56%);
+cursor: pointer;
+margin-right: -80px;
+}
+
+.reset{
+    background-color: rgb(255, 255, 255);
+cursor: pointer;
+}
+
+.button-style{
+    margin-left:-510px;
+    margin-top:37px;
+} 
+.submit:disabled{
+    cursor: not-allowed;
+    background-color: darkgray;
+    }

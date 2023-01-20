@@ -1,0 +1,62 @@
+.DetailsContainer {
+  background-color: rgb(255, 255, 255);
+}
+
+hr{
+margin-top:24px ;
+}
+
+
+.DetailsContainer .carImage {
+width:40vw;
+height:70vh;
+margin-right:40%;
+margin-top: 5%;
+top: 20px;
+border-radius: 5px;
+}
+
+.itemsContainer {
+background-color: rgb(0, 0, 0);
+height:2%;
+width: 60%;
+margin-left:75%;
+right: 80px;
+margin-top: 20px;
+top: 50px;
+align-items: center;
+border-radius: 5px;
+
+}
+
+
+.DetailsContainer .Brand { 
+  font-size: larger;
+  margin-top:-630px;
+  margin-left:900px;
+  text-transform:uppercase;
+  border-radius: 5px;
+  width: 30%;
+  height: 50px;
+}
+
+
+.title{
+font-weight: 700;
+margin-left: 4%;
+margin-top:2%;
+font-size: 20px;
+font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+color: aliceblue;
+
+}
+
+.value{
+  font-weight: 500;
+  margin-left: 1%;
+  margin-top:2%;
+  font-size: large;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: aliceblue;
+text-decoration: underline;
+  }
