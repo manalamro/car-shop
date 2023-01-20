@@ -12,8 +12,6 @@ https://user-images.githubusercontent.com/105562468/213748037-33f9b392-0f5a-4e4b
 cars slider cards
 <img width="1440" alt="Screen Shot 2023-01-20 at 16 36 39" src="https://user-images.githubusercontent.com/105562468/213747853-66d5c4b8-aacb-43fd-a1cb-2e78bf990d8a.png">
 
-filter
-![Uploading Screen Shot 2023-01-20 at 16.36.31.png…]()
 
 view items page
 
