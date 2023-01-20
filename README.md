@@ -3,6 +3,24 @@
 this project is car shop website which show all cars with some of its details at slider cards at home screen also there is filter for that shown cars which you can control also by that filter , you can add new cars as admin.
 you can view each cars in spicific page to see more details about it.
 
+# project demo 
+
+
+https://user-images.githubusercontent.com/105562468/213748037-33f9b392-0f5a-4e4b-ad7d-6968c969f167.mp4
+
+
+cars slider cards
+<img width="1440" alt="Screen Shot 2023-01-20 at 16 36 39" src="https://user-images.githubusercontent.com/105562468/213747853-66d5c4b8-aacb-43fd-a1cb-2e78bf990d8a.png">
+
+filter
+![Uploading Screen Shot 2023-01-20 at 16.36.31.png…]()
+
+view items page
+
+<img width="1440" alt="Screen Shot 2023-01-20 at 16 37 04" src="https://user-images.githubusercontent.com/105562468/213747996-93791645-fa65-4d7f-b8a5-8c60716414c2.png">
+
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
