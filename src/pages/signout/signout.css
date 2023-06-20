@@ -1,16 +1,33 @@
-.z{
-    margin: 80px; 
-    height: 600px;
+.signoutContainer{
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;   
+    height:60vh;
+    width:80vw;
 }
- .v{
+
+ .message{
     color: rgb(0, 0, 0);
     font-family: monospace;
-    margin-bottom: 39px;
-
+    font-size:medium;
+    margin:0 auto;
+    margin-top:50px;
 
  }
- .d{
+
+.signoutContainer img{
+
+    margin:0 auto;
+    height: auto;
+    max-width: 100%;
+ }
+
+ .loginLink
+ {
     color: hsl(348deg 100% 56%);
     font-family: monospace;
-    margin-top: 51px;
-}
+    margin:0 auto;
+    font-size: medium;
+ }
+
+

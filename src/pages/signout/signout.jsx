@@ -1,15 +1,14 @@
 import "./signout.css";
-import signout from "../../assets/img/leaving-car.gif";
-
+// import signout from "../../assets/img/leaving-car.gif";
+import logout from "/Users/manalamro/Desktop/car-shop/src/assets/img/lofofpng.png"
 const Signout = () => {
   return (
     <>
-      <div className="z">
-        <h1 className="v">You are signed out from the account</h1>
-        <img src={signout} width={500} height={300} />
-
+      <div className="signoutContainer">
+        <h1 className="message">you are signed out from your account</h1>
+        <img src={logout} width={500} height={300} />
         <a href="login">
-          <h4 className="d">Click here to return to the login page</h4>
+          <h4 className="loginLink">Click here to return to the login page</h4>
         </a>
       </div>
       <div>

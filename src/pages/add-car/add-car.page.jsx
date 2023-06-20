@@ -1,9 +1,7 @@
 import React,{useContext} from 'react';
-import './add-car.css';
 import New_item from '../../component/new-item/new-item.component'
 import { CarsContext } from '../../component/providers/carProvider';
 import { useNavigate } from 'react-router-dom';
-
 
 const AddNewCar = () => {
 const navigate = useNavigate();
@@ -53,9 +51,6 @@ const handleSubmit = (e) => {
     navigate('/home');
   }
   
-
-
-
     return (
         <New_item handleSubmit={handleSubmit}/>
     )

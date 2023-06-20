@@ -1,7 +1,11 @@
 .imgStyle{
 object-fit: fill;
-    height:110vh;
+    height:auto;
     width:100%;
     background-position: 10%;
 
+}
+
+.secondText{
+    margin-top: 450px;
 }

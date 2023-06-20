@@ -1,76 +1,76 @@
 .login {
-    display: flex;
+    margin: 0 auto;
+    margin-top:10%;
+    height:80vh;
+    display:flex;
     flex-direction: column;
-    justify-content: center;
-    align-items: center;
+    width:80vw;
+}
+
+.login h1{
+color: hsl(0, 0%, 100%);
+font-size:large;
+margin: 0 auto;
+margin-top:-45px;
 }
 
 .login form {
     display: flex;
     flex-direction: column;
-    justify-content: center;
-    width: 50%;
-    height: 440px;
+    width:auto;
+    height:27em;
     background-color: black;
-    margin-top: 70px;
-    max-width: 500px;
-    row-gap: 10px;
+    row-gap:5px;
+    border-top-left-radius:1.5%;
+    border-top-right-radius:1.5%;
+    border-top:65px solid hsl(348deg 100% 56%);
+    box-sizing: border-box;
 }
 
 .login form .i {
     display: flex;
     flex-direction: column;
-    justify-content: center;
     text-align: left;
-    row-gap: 15px;
-    margin-top: 30px;
+    row-gap:15px;
+    margin-top:28px;
 }
 
 .login form .i textarea,
 .login form .i input {
-    padding: 10px;
-    border-radius: 10px;
+    padding-left:8px;
+    border-radius:3%;
     outline: none;
     border: 1px solid;
-    height: 25px;
-    width: 395px;
-    margin-left: 40px;
-
+    height: 35px;
+    width: 80%;
+    margin-left:9%;
 }
 
 .login form label{
 
     color: aliceblue;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    font-weight: 600;
-    margin-left: 45px;
-    margin-top: 10px;
-
+    font-weight:600;
+    margin-left:9%;
+    margin-top:20px;
 }
 
-.login form .b {
-    display: flex;
-    justify-content: center;
-}
-
-
-.login form .b button {
-    padding: 10px;
-    margin-top: 50px;
-    border-radius: 10px;
+.login form button {
+    border-radius:3%;
+    margin-top:36px;
+    height: 35px;
+    width: 80%;
+    margin-left:9%;
     outline: none;
-    border: 1px solid;
     font-weight: bold;
     background-color: hsl(348deg 100% 56%);
     color: rgb(255, 255, 255);
-    width: 180px;
+    font-size: medium;
     border: unset;
-    height: 40px;
     cursor: pointer;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-
 }
 
-.login form .b button:active {
+.login form  button:active {
     box-shadow: white;
 }

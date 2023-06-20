@@ -13,7 +13,6 @@ const Header = () => {
                     <a href="/Blog" ><h3>Blog</h3></a>
                     <a href="/Shop" ><h3>Shop</h3></a>
                     <a href="/Contact" ><h3>Contact</h3></a>
-                  
                     <div className='icons'>
                     <a href="/AddNewCar" > <PlusCircle size={25} /></a>
                     <a href="/signout" >  <SignOut size={25} /></a>

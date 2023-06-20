@@ -1,25 +1,23 @@
 
     h2{
-    margin-top: -540px;
-    color: white;
-    position: inherit;
-    font-weight: 600;
-    }
-    
-    .h{
-        margin-top: 450px;
+        margin: 0 auto;
+        color: white;
+        font-weight:600;
+        margin-top:-50%;
+        font-size:4vw;
     }
     
     .searchContainer{
         display: flex;
         justify-content: center;
         align-items: center;
-        margin-top: 30px;
-    
-    
+        margin:0 auto;
+        margin-top:40px;
+        width:65%;
     }
+    
   select{
-        width: 150px;
+        width: 30%;
         border-radius: 0px;
         height: 40px;
         border:none;
@@ -28,8 +26,9 @@
     .para{
         color: white;
         font-weight: 400;
-        margin-top: -10px;
-        
+        margin-top: 18px;
+        font-size:medium;
+        padding-left:5%;   
     }
     
      .buttonStyle{

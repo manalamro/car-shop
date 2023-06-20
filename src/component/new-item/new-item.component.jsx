@@ -11,17 +11,24 @@ const New_item = (props) => {
   const [cars_brand, setCarsbrand] = useState();
   const [Car_status, setCarsStatus] = useState();
 
-
   return (
     <div className="container">
-      <h2>Add Car Form</h2>
-      <img className="formImg" src={formImg} alt="formImg"></img>
       <form className="form" onSubmit={props.handleSubmit}>
         <div className="column-item">
           <label>Car Color</label>
           <input type="text" name="car_color" required />
+          <label>PayPerMonth</label>
+          <input type="text" name="PayPerMonth" required />
+          <label>Car Odometer</label>
+          <input type="text" name="car_meter" required />
+          <label>Car year</label>
+          <input type="number" name="car_year" required />
+          <label>Car Make</label>
+          <input type="text" name="car_Make" required />
+          <label>Car Image</label>
+          <input type="text" name="imgURL" required />
 
-          <label>Car status</label>
+        <label>Car status</label>
           <select
             name="Car_status"
             value={Car_status}
@@ -49,18 +56,6 @@ const New_item = (props) => {
             <option value="Aventador">Aventador</option>
           </select>
 
-          <label>PayPerMonth</label>
-          <input type="text" name="PayPerMonth" required />
-          <label>Car Odometer</label>
-          <input type="text" name="car_meter" required />
-          <label>Car year</label>
-          <input type="number" name="car_year" required />
-          <label>Car Make</label>
-          <input type="text" name="car_Make" required />
-          <label>Car Image</label>
-          <input type="text" name="imgURL" required />
-        </div>
-        <div className="column-item">
           <label>Car transmission</label>
           <select
             name="cars_transmission"

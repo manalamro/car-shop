@@ -21,7 +21,7 @@ const Home = () => {
       <div>
         <img src={logo} alt="f" className="imgStyle" width={20} />
         <SearchFilter cars={cars} setFilterdCars={setFilterdCars} />
-        <h1 className="h">Featured Cars</h1>
+        <h1 className="secondText">Featured Cars</h1>
         Lorem ipsum, dolor sit amet consectetur adipisicing elit.
         {<Items filterdCars={filterdCars} />}
       </div>

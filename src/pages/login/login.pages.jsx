@@ -3,7 +3,8 @@ import { useNavigate } from 'react-router-dom';
 import { car_users } from '../../Data/data';
 import { CarsContext } from '../../component/providers/carProvider';
 import { useContext, useEffect } from 'react';
-const Login = () => {
+// import loginimg from "/Users/manalamro/Desktop/rectoo/car_shop.manal.and.zainab/src/assets/img/car-background.jpeg"
+const Login = () => { 
     const navigate = useNavigate();
     const { handleUserLogin, user } = useContext(CarsContext);
     useEffect(() => {
@@ -24,23 +25,22 @@ const Login = () => {
       alert("I don't know you, Go Away");
     }
   }
-  
+
     return (
         <div className='login'>
-            <h3>Welcome Back</h3>
             <form onSubmit={handleLogin} >
+              <h1>Welcome back!</h1>
                 <div className='i'>
                     <label >Email</label>
                     <input type='text' name='email' required></input>
-                </div>
-                <div className='i'>
                     <label > Passward</label>
                     <input type="passward" name='passward' />
                 </div>
-                <div className='b'>
-                    <button type="submit" >Login</button>
+                <button type="submit" >Login</button>
+                <div >
                 </div>
             </form>
+            {/* <div className='vl'></div> */}
         </div>
     );
 }
