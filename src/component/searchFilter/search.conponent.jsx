@@ -106,10 +106,12 @@ useEffect(()=>{
 
   return (
     <>
-      <h2>WELCOME TO CAR CMART</h2>
+      <h2>WELCOME TO CAR CMART
       <p className="para">
-        Lorem ipsum dolor, sit amet consectetur adipisicing elit?
+        Lorem ipsum dolor, sit amet consectetur adipisicing elit? sit amet consectetur
       </p>
+      </h2>
+   
       <div className="searchContainer">
         <select
           name="cars-brand"

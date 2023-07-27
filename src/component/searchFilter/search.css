@@ -1,6 +1,6 @@
 
     h2{
-        margin: 0 auto;
+        /* margin: 0 auto; */
         color: white;
         font-weight:600;
         margin-top:-50%;
@@ -12,8 +12,10 @@
         justify-content: center;
         align-items: center;
         margin:0 auto;
-        margin-top:40px;
-        width:65%;
+        margin-top:50px;
+        width:70%;
+        position:relative;   
+
     }
     
   select{
@@ -26,7 +28,6 @@
     .para{
         color: white;
         font-weight: 400;
-        margin-top: 18px;
         font-size:medium;
         padding-left:5%;   
     }
@@ -48,4 +49,54 @@
         font-weight: bold;
         border: none;
     
+    }
+
+
+    /* //////////////small & medium screen //////////*/
+
+    @media (max-width: 750px) {
+        .searchContainer{
+            display: flex;
+            justify-content:center;
+            flex-direction: column;
+            align-items: center;
+            /* margin-top:50px; */
+            box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+        }
+
+        select{
+            color: rgb(0, 0, 0);
+            background-position: 30%;
+            background-color: rgb(255, 255, 255);
+                border: unset;
+                width: 100%;
+                /* max-width: 400px; */
+                padding: 0.75rem;
+                border: 1px solid rgba(177, 177, 177, 0.1);
+                /* Arrow */
+                appearance: none;
+                background-image: url("https://img.icons8.com/?size=512&id=88000&format=png");
+                background-repeat: no-repeat;
+                background-position: right 0.7rem top 50%;
+                background-size: 0.65rem auto;
+        }
+
+        .buttonStyle{
+            background-color: hsl(348deg 100% 56%);
+            width:100%;
+            height: 40px;
+            padding-right: 20px;
+            border-radius: 0px;
+            color: white;
+            font-size: 14px;
+            cursor: pointer;
+            margin-left: 0px;
+            align-items: center;
+            display: flex;
+            justify-content: center;
+            gap: 5px;
+            font-weight: bold;
+            border: none;
+        
+        }
     }

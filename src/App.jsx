@@ -9,7 +9,6 @@ import CarDetails from'./pages/CarDetails/carDetails.page';
 import Login from "./pages/login/login.pages";
 import { SignOut } from "phosphor-react";
 import Signout from "./pages/signout/signout";
-
 function App() {
   
   return (

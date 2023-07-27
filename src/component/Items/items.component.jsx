@@ -1,5 +1,5 @@
 
-  import React from 'react';
+  import React  from 'react';
   import './item.css'
   import 'slick-carousel/slick/slick.css';
   import 'slick-carousel/slick/slick-theme.css';
@@ -7,18 +7,20 @@
   import { GasPump, Car, Gear, CalendarBlank, Gauge } from 'phosphor-react';
   import transmission from '../../assets/img/manual-transmission1.png'
   import { Link } from 'react-router-dom';
-
-  const Items = (props) => {
+  import useScreenWidth from '../providers/screenWidth.provider'
+ const Items = (props) => {
    
-    const settings = {
+  let width = useScreenWidth();
+
+    let settings = {
       dots: false,
       speed: 1000,
-      slidesToShow: 3,
+      slidesToShow:(width > 800 ? 3 : 1),
       slidesToScroll: 1,
       initialSlide: 0,
     };
+    
   
-
     return (
   
       <div className="items">

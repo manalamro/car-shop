@@ -1,6 +1,6 @@
 import "./signout.css";
 // import signout from "../../assets/img/leaving-car.gif";
-import logout from "/Users/manalamro/Desktop/car-shop/src/assets/img/lofofpng.png"
+import logout from "/Users/manalamro/Desktop/rectoo/car-shop/src/assets/img/lofofpng.png"
 const Signout = () => {
   return (
     <>

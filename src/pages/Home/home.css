@@ -7,5 +7,12 @@ object-fit: fill;
 }
 
 .secondText{
-    margin-top: 450px;
+    margin-top:43%;
+}
+
+
+@media (max-width: 750px) { 
+    .secondText{
+        margin-top:90px;
+    }
 }
