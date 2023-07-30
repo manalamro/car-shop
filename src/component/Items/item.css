@@ -88,26 +88,28 @@ button.slick-prev::before {
   position: relative;
   color: white;
   top:50px;
-  left:80px;
-  font-weight: 600;
+  left:30%;
+  font-weight:600;
   font-size:12px;
-  padding-top: 5px;
-  height: 21px;
-  width: 87px;
+  padding-top:5px;
+  height:21px;
+  width:87px;
   border-radius: 20px;
   background-color:hsl(348deg 100% 56%);
 
 }
 
 .card-top>img {
-  border: none;
+ border: none;
   border-radius: 2px;
   height: 100%;
   width: 138%;
   left: -65px;
   object-fit: fill;
   cursor: pointer;
-  position: absolute;
+  position: absolute; 
+    
+  
 }
 
 .column-items{
@@ -198,22 +200,21 @@ button.slick-prev::before {
 @media (min-width : 800px)and (max-width : 1111px)  {
   .items {
     width:95%;
-    /* background-color: rgb(79, 108, 172); */
   }
 
   .card {
     border: none;
     border-radius: 2px;
     overflow: hidden;
-    height: 500px;
+    height: 530px;
   }
 
   .card-top > img {
     border: none;
-    border-radius: 2px;
-    height: 110%;
-    width: 138%;
-  } 
+    height: 100%;
+    width: 45vw;
+    object-fit:fill;
+  }  
 
   .column-items{
     flex-direction:row;  
@@ -233,12 +234,7 @@ button.slick-prev::before {
   
   }
 
-.card-top h1 {
-  color: rgb(255, 255, 255);
-  font-size:large;
-  margin-top:-15%;
 
-}
 
 .card-top h2 {
   color: rgb(255, 255, 255);
@@ -294,26 +290,28 @@ margin-top: 4px;
 
 }
 
+
+
 }
 
 @media (max-width:400px){
   .card-top h2 {
     color: rgb(255, 255, 255);
     font-size:small;
-    margin-left:30%;
+    margin-left:20%;
   
   }
 }
 
 @media (max-width:600px){
   .card-top h2 {
-    margin-left:20%;
+    margin-left:35%;
   }
 }
 
 @media (min-width:600px)and (max-width:800px){
   .card-top h2 {
-    margin-left:55%;
+    margin-left:48%;
   
   }
 }
