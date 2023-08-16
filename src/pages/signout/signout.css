@@ -19,7 +19,7 @@
 
     margin:0 auto;
     height: auto;
-    max-width: 100%;
+    max-width: 100%; 
  }
 
  .loginLink
@@ -28,6 +28,5 @@
     font-family: monospace;
     margin:0 auto;
     font-size: medium;
+    font-weight: 700;
  }
-
-

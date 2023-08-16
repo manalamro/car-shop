@@ -1,15 +1,13 @@
-
 .header {
-display: flex;
+  display: flex;
   justify-content: space-between;
   height:8vh;
   align-items: center;
-  /* padding: 0 40px; */
   box-shadow: 0px 2px 7px 0px #ddd;
   background-color: rgb(22, 17, 17);
   color: white;
   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-  width:100vw;
+  /* width:100%; */
   font-size:small;
 }
 
@@ -22,18 +20,91 @@ margin-left:10px;
 a{
   text-decoration: none;
   color: white;
-  padding:0px 10px;
+  margin-top:26px;
+  padding:10px;
 }
-
-.header>.linkes {
+.header>.nav {
   display: flex;
   align-items: center;
-  justify-content: space-between;
-  margin-top:26px;
-  margin-right:4vw;
+  margin-top:-26px;
+  margin-right:2vw;
 }
+
+.header > button{
+  text-decoration: none;
+  color: white;
+  margin-top:26px;
+  padding:10px;
+  background: none;
+  border: none;
+  display: none;
   
-.icons{
-margin-top:-25px;
-margin-left:33px;
+}
+
+  
+@media (max-width:460px) {
+  a{
+    text-decoration: none;
+    color: rgb(238, 233, 233);
+    margin-top:35px;
+    padding:9px;
+    font-weight:700;
+    font-size: larger;
+    padding: 15px;
+    margin-right: 10%;   
+ 
+
+  }
+  a:hover{
+background-color: rgb(255, 255, 255);
+color: rgb(0, 0, 0);
+width: 140%;
+padding: 15px;
+border-radius: 3px;
+
+
+  }
+
+  .header > .nav {
+    border-top: 0.2px white solid;
+    top: 5rem;
+    flex-direction: column;
+    background-color: rgb(22, 17, 17);
+    position:absolute;
+    width: 100%;
+    flex-direction: column;
+    text-align: center;
+    box-shadow:
+        0 10px 27px rgba(0, 0, 0, 0.05);
+    height: 60%;
+  }
+
+  
+
+  .header > .nav_active {
+   display: none;
+  }
+
+  .header > .nav button{
+    text-decoration: none;
+    color: rgb(238, 233, 233);
+    margin-top:35px;
+    padding:9px;
+    font-weight:700;
+    font-size: larger;
+    padding: 15px;
+    margin-right: 10%;   
+  }
+
+
+  .header>button{
+    text-decoration: none;
+    color: white;
+    margin-top:5px;
+    display: block;
+     
+  }
+
+
+  
 }

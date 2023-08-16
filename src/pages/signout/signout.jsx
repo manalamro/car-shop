@@ -8,7 +8,7 @@ const Signout = () => {
         <h1 className="message">you are signed out from your account</h1>
         <img src={logout} width={500} height={300} />
         <a href="login">
-          <h4 className="loginLink">Click here to return to the login page</h4>
+          <div className="loginLink">Click here to return to the login page</div>
         </a>
       </div>
       <div>

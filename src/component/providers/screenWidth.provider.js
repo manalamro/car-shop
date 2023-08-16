@@ -15,7 +15,8 @@ function useScreenWidth() {
       window.removeEventListener('resize', handleResize);
     };
   }, []);
-
+  
+  console.log(screenWidth);
   return screenWidth;
 }
 

@@ -91,7 +91,7 @@ const New_item = (props) => {
             <option value="sport">sport</option>
           </select>
         </div>
-        <div className="button-style">
+        <div className="button-style" >
           <button
             className="submit"
             type="submit"
