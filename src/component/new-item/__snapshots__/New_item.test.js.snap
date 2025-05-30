@@ -1,0 +1,222 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`New_item Component matches snapshot 1`] = `
+<DocumentFragment>
+  <div
+    class="container"
+  >
+    <form
+      class="form"
+    >
+      <div
+        class="column-item"
+      >
+        <label>
+          Car Color
+        </label>
+        <input
+          name="car_color"
+          required=""
+          type="text"
+        />
+        <label>
+          PayPerMonth
+        </label>
+        <input
+          name="PayPerMonth"
+          required=""
+          type="text"
+        />
+        <label>
+          Car Odometer
+        </label>
+        <input
+          name="car_meter"
+          required=""
+          type="text"
+        />
+        <label>
+          Car year
+        </label>
+        <input
+          name="car_year"
+          required=""
+          type="number"
+        />
+        <label>
+          Car Make
+        </label>
+        <input
+          name="car_Make"
+          required=""
+          type="text"
+        />
+        <label>
+          Car Image
+        </label>
+        <input
+          name="imgURL"
+          required=""
+          type="text"
+        />
+        <label>
+          Car status
+        </label>
+        <select
+          name="Car_status"
+          required=""
+        >
+          <option
+            value="For Sale"
+          >
+            For Sale
+          </option>
+          <option
+            value="Not For Sale"
+          >
+            Not For Sale
+          </option>
+        </select>
+        <label>
+          Car Brand
+        </label>
+        <select
+          name="cars_brand"
+          required=""
+        >
+          <option
+            value="Golf Cabriolet"
+          >
+            Golf Cabriolet
+          </option>
+          <option
+            value="Beetle"
+          >
+            Beetle
+          </option>
+          <option
+            value="Arteon"
+          >
+            Arteon
+          </option>
+          <option
+            value="Shooting Brake"
+          >
+            Shooting Brake
+          </option>
+          <option
+            value="Volkswagen CC"
+          >
+            Volkswagen CC
+          </option>
+          <option
+            value="BMW-i8"
+          >
+            BMW-i8
+          </option>
+          <option
+            value="G-class"
+          >
+            G-class
+          </option>
+          <option
+            value="Avalon Hybrid"
+          >
+            Avalon Hybrid
+          </option>
+          <option
+            value="Aventador"
+          >
+            Aventador
+          </option>
+        </select>
+        <label>
+          Car transmission
+        </label>
+        <select
+          name="cars_transmission"
+          required=""
+        >
+          <option
+            value="Manual"
+          >
+            Manual
+          </option>
+          <option
+            value="Automatic"
+          >
+            Automatic
+          </option>
+        </select>
+        <label>
+          Car EngineFuel
+        </label>
+        <select
+          name="cars_EngineFuel"
+          required=""
+        >
+          <option
+            value="Diesel"
+          >
+            Diesel
+          </option>
+          <option
+            value="petrol"
+          >
+            petrol
+          </option>
+        </select>
+        <label>
+          Car CarType
+        </label>
+        <select
+          name="CarType"
+          required=""
+        >
+          <option
+            value="sedan"
+          >
+            sedan
+          </option>
+          <option
+            value="Universal"
+          >
+            Universal
+          </option>
+          <option
+            value="CUV"
+          >
+            CUV
+          </option>
+          <option
+            value="Roadster"
+          >
+            Roadster
+          </option>
+          <option
+            value="sport"
+          >
+            sport
+          </option>
+        </select>
+      </div>
+      <div
+        class="button-style"
+      >
+        <button
+          class="submit"
+          type="submit"
+        >
+          Add
+        </button>
+        <button
+          class="reset"
+          type="reset"
+        >
+          Clear
+        </button>
+      </div>
+    </form>
+  </div>
+</DocumentFragment>
+`;
