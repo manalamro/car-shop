@@ -6,10 +6,10 @@ import { NavLink } from 'react-router-dom';
 
 const Header = () => {
   const width = useScreenWidth();
-  const [toggleMenu, settoggleMenu] = useState(false);
+  const [toggleMenu, setToggleMenu] = useState(false);
 
   const toggleNav = () => {
-    settoggleMenu(!toggleMenu);
+    setToggleMenu(!toggleMenu);
   };
 
 
@@ -21,37 +21,40 @@ const Header = () => {
         { width > 460 ? (
            <>
  <div className="nav">
-            <a href="/home">Home</a>
-            <a href="/Contact">Contact</a>
-            <a href="/AddNewCar">
+            <NavLink to="/home">Home</NavLink>
+            <NavLink to="/Contact">Contact</NavLink>
+            <NavLink to="/AddNewCar">
               <PlusCircle size={25} />
-            </a>
-            <a href="/signout">
+            </NavLink>
+            <NavLink to="/signout">
               <SignOut size={25} />
-            </a>
+            </NavLink>
 
    </div>
  </>
         ):(
         
           <>
-            <div className={toggleMenu ? "nav" :"nav nav_active"}>
-            <a href="/home" onClick={toggleNav}>Home</a>
-            <a href="/Contact"onClick={toggleNav}>Contact</a>
-            <a href="/AddNewCar"onClick={toggleNav}>
+            <div className={toggleMenu ? "nav nav_active" : "nav"}>
+            <NavLink to="/home" onClick={toggleNav}>Home</NavLink>
+            <NavLink to="/Contact" onClick={toggleNav}>Contact</NavLink>
+            <NavLink to="/AddNewCar" onClick={toggleNav}>
               <PlusCircle size={25} />
-            </a>
-            <a href="/signout"onClick={toggleNav}>
+            </NavLink>
+            <NavLink to="/signout" onClick={toggleNav}>
               <SignOut size={25} />
-            </a>
+            </NavLink>
         </div>
         </>
         )
       }
         
         <button onClick={toggleNav}>   
-        {}        
-           <List size={25} color="#ff1f4b" weight="bold" />
+        {toggleMenu ? (
+          <X size={25} color="#ff1f4b" weight="bold" />
+        ) : (
+          <List size={25} color="#ff1f4b" weight="bold" />
+        )}        
         </button>
       </div>
     </>
